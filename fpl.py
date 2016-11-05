@@ -19,6 +19,9 @@ def request(url):
       else:
          print('Error fetching URL {}'.format(url))
          exit(1)
+   elif r.status_code == 404:
+      print('Error (are you sure the league code is correct?).')
+      exit(1)
    return r
    
    
