@@ -4,7 +4,7 @@
 This is a simple script to fetch the live scores from a [Fantasy Premier League](https://fantasy.premierleague.com) league.
 
 ## Usage
-To run this program, you will need to know the ID for your league. When you visit your league page, you will see the ID in the URL. For example, the URL for the [Football Fives Podcast](http://footballfivespodcast.com) is `https://fantasy.premierleague.com/a/leagues/standings/71288/classic`. The league ID is 71288.
+To run this program, you will need to know the ID for your league. When you visit your league page, you will see the ID in the URL. For example, the URL for the [Football Fives Podcast](http://footballfivespodcast.com)'s league is `https://fantasy.premierleague.com/a/leagues/standings/71288/classic`. The league ID is 71288.
 
 To run the program, use the following command (while in the directory in which you've downloaded it), replacing 71288 with the ID of your league.
 
