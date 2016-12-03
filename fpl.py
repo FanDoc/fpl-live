@@ -80,6 +80,10 @@ class Team:
    # get the team ID
    def get_id(self):
       return self.data['entry']['id']
+      
+   # get gameweek
+   def get_gameweek(self):
+      return self.data['entry-history']['event']
 
          
       
