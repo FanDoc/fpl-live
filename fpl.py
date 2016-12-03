@@ -76,6 +76,10 @@ class Team:
    # get the name of the team   
    def get_name(self):
       return self.data['entry']['name']
+      
+   # get the team ID
+   def get_id(self):
+      return self.data['entry']['id']
 
          
       
